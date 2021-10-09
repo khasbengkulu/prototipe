@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	box-sizing: border-box;}
+
+body{
+	background-color:rgb(100,134,169);
+	overflow-x: hidden;
+}
+
+h1{
+	color: lightgreen;
+}
+nav{
+	display: flex;
+	position: fixed;
+	background-color: black;
+	color: white;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 25px;
+	align-items: center;
+	z-index: 9999999999999;
+
+}
+.menu{
+	position: absolute;
+	right: 5%;
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.cari button{
+	height: 22px;
+	border-radius: 20px;
+	width: 50px;
+}
+
+.cari input{
+	width: 20%;
+	height: 25px;
+	margin-top: 25px;
+	border-radius: 15px;
+}
+.cofyright{
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index:99999999999; 
+	background-color: lightblue;
+	width: 20px;
+	font-size: 5px;
+}
+
+.programed{
+	z-index: 99999999;
+	background-color:silver;
+	height:100vh;
+	position:fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	align-items: center;
+	justify-content: center;
+	opacity:.9;
+	color: green;
+	display: none;
+}
+
+
+
+.by{
+	display: flex;
+}
+
+
+.cofyr{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10px;
+	font-style: italic;
+}
+p{
+	margin-top: 15px;
+}
+
+.container{
+	margin-top: 10px;
+	height:80vh;
+	width: 100vw;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.info1, .info2, .info3{
+	margin: 5px;
+	width:90%;
+	height: 40%;
+	display: flex;
+	overflow-y: auto;
+	position: relative;
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 5px;
+}	
+.judul1{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+
+}
+.content .text{
+	font-style: italic;
+	font-weight: bolder;
+	margin-top: 0;
+}
+
+.content img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	border-radius: 5px;
+}
+.content{
+	width: 50vw;
+	height: 60vh;
+	margin: 10% auto;
+	border: 1px solid silver;
+	border-radius: 5px;
+	overflow-y: auto;
+	background-color: silver;
+}
+
+.login{
+	position: absolute;
+	top:0;
+	left: 0;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+
+.selengkapnya{
+	color: blue;
+	text-decoration: none;
+}
+
+.selengkapnya:hover{
+	background-color: silver;
+	font-size: 12px;
+}
+
+.form_login{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-radius: 5px;
+	position: relative;
+}
+
+.form_login input{
+	width: 180px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.form_login button{
+	width: 60px;
+	margin-top: 10px;
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+}
+
+.active{
+	background-color: white;
+	color: black;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	font-size: 20px;
+}
+
+.waktu{
+color: black;
+background-color: white;
+font-size: 8px;
+}
+
+.content .text .nama{
+	font-size: 13px;
+	font-style: inherit;
+	font-family: serif;
+	color: white;
+}
+.info{
+	display: none;
+}
+
+@media screen and (max-width: 600px)
+{
+.menu{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: black;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 10;
+	height: 99vh;
+	margin-top: -1000%;
+	transition: 1s;
+	right: 0;
+	left: 0;
+}
+
+.tampilkan{
+	margin-top:96.5vh;
+}
+
+
+
+.menu li{
+	margin-top:10%;
+}
+	
+	.hamburger{
+		position: absolute;
+		right: 100%;
+		z-index: 999999;
+		right: 10%;
+		display: flex;
+		flex-direction: column;
+	}
+	span{
+		width: 20px;
+		height: 3px;
+		background-color: white;
+		margin-top: 2px;
+	}
+.cari input{
+	width: 50%;
+	margin-top: 25px;
+}
+
+.container{
+	margin-top: 10px;
+	height:100vh;
+	width: 100vw;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	overflow-y: auto;
+}
+.info1, .info2, .info3{
+	margin: 5px;
+	width:80%;
+	height: 100%;
+	display: flex;
+	overflow-y: auto;
+	position: relative;
+		border: 1px solid black;
+}	
+.judul1{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+
+}
+.content{
+	width: 80vw;
+	height: 70vh;
+	margin:20% auto;
+}
+
+}
