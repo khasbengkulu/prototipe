@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galeri</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/galeri.css">
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<nav>
+	<h1>TEKNIK INFORMATIKA</h1>
+	<div class="hamburger" id="hamburger">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<ul class="menu" id="menu">
+		<li><a href="index.html">DASBOARD</a></li>
+		<li><a href="profil.html" onclick="return peringatan()">PROFIL</a></li>
+		<li><a href="berita.html"onclick="return peringatan()" >BERITA</a></li>
+		<li><a href="tentang.html">TENTANG</a></li>
+		<li><a href="kontak.html"onclick="return peringatan()">KONTAK</a></li>
+		<li><a href="#" class="active">GALERI</a></li>
+		<li><a href="pariwisata.html"onclick="return peringatan()">PARIWISATA</a></li>
+	</ul>
+</nav>
+<div class="galeri">
+	<h1>MY GALERY</h1>
+	<img src="../img/1.jpg" title="Dayat">
+	<img src="../img/2.jpg" title="Angkatan 2019, teknik jaya.">
+	<img src="../img/3.jpg" title="Angkatan 2019, teknik jaya.">
+	<img src="../img/4.jpg"title="Angkatan 2019, teknik jaya.">
+	<img src="../img/5.jpg"title="Angkatan 2019, teknik jaya.">
+	<img src="../img/6.jpg"title="Angkatan 2019, teknik jaya.">
+</div>
+<button class="cofyright" id="cofyright">INFO</button>
+<div class="programed" id="programed">
+	<form action="" method="POST" name="form_login" class="form_login" onsubmit="return cek()">
+		<label>USERNAME</label>
+		<input type="text" name="USERNAME" placeholder="USERNAME" required="" id="USERNAME">
+		<label>PASSWORD</label>
+		<input type="password" name="PASSWORD" placeholder="PASSWORD" required=""> 
+			<label id="pertanyaan"></label>
+			<label id="jawaban"></label>
+		<input type="text" name="captha" id="captha" placeholder="Tulis jawaban anda">
+		<button type="submit" >LOGIN</button>
+	</form>
+	<p class="cofyr">Cofyright Teknik Informatika 2019</p>
+</div>
+<script type="text/javascript" src="../js/submenu.js"></script>
+<script type="text/javascript" src="../js/galeri.js"></script>
+</body>
+</html>

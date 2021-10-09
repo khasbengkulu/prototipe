@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<nav>
+	<h1>TEKNIK INFORMATIKA<span id="waktu" class="waktu"></span></h1>
+	<div class="hamburger" id="hamburger">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<ul class="menu" id="menu">
+		<li><a href="profil.html" onclick="return peringatan()">PROFIL</a></li>
+		<li><a href="berita.html"onclick="return peringatan()">BERITA</a></li>
+		<li><a href="tentang.html">TENTANG</a></li>
+		<li><a href="kontak.html"onclick="return peringatan()">KONTAK</a></li>
+		<li><a href="galeri.html">GALERI</a></li>
+		<li><a href="pariwisata.html"onclick="return peringatan()">PARIWISATA</a></li>
+	</ul>
+</nav>
+<button class="cofyright" id="cofyright">INFO</button>
+<form action="" method="POST" class="cari">
+	<input type="text" name="cari" placeholder="Ketikkan key pencarian disini" autocomplete="off" autofocus="on" maxlength="100">
+	<button>CARI</button>
+</form>
+<div class="programed" id="programed">
+	<form action="" method="POST" name="form_login" class="form_login" onsubmit="return cek()">
+		<label>USERNAME</label>
+		<input type="text" name="USERNAME" placeholder="USERNAME" required="" id="USERNAME">
+		<label>PASSWORD</label>
+		<input type="password" name="PASSWORD" placeholder="PASSWORD" required=""> 
+			<label id="pertanyaan"></label>
+			<label id="jawaban"></label>
+		<input type="text" name="captha" id="captha" placeholder="Tulis jawaban anda">
+		<button type="submit" >LOGIN</button>
+	</form>
+	<p class="cofyr">Cofyright Teknik Informatika 2019</p>
+</div>
+<div class="container">
+	<div class="info1">
+		<h3 class="judul1">Berita terkini</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#" class="selengkapnya"> Baca selengkapnya...</a></p>
+	</div>
+	<div class="info2">
+			<h3 class="judul1">Berita terkini</h3>
+			<p>sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex  <a href="#" class="selengkapnya"> Baca selengkapnya...</a></p>
+	</div>
+	<div class="info3">
+			<h3 class="judul1">Berita terkini</h3>
+			<p>sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex  <a href="#" class="selengkapnya"> Baca selengkapnya...</a></p>
+	</div>
+</div>
+<script type="text/javascript" src="../js/submenu.js"></script>
+<script type="text/javascript" src="../js/waktu.js"></script>
+<script type="text/javascript" src="../js/peringatan.js"></script>
+</body>
+</html>
